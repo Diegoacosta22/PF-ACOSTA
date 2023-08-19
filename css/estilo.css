@@ -298,6 +298,7 @@ section article iframe{
 }
 
 
+
 .hr-uno{
     position: relative;
     top: 470px;
@@ -314,6 +315,7 @@ section article iframe{
 }
 
 .footer-dos{
+    display: block;
     position: relative;
     left: 200px;
     top: 380px;
