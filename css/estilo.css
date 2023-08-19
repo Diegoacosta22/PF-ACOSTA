@@ -1,6 +1,4 @@
 
-
-
 *{  margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +10,6 @@ body{
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
-
 
 a{
     text-decoration: none;
@@ -30,13 +27,9 @@ li:hover{
     padding: 15px;
 }
 
-
-
 .logo-img{
-    width: 70px;
-    
+    width: 70px; 
 }
-
 
 .slide img{
     height: 80vh;
@@ -55,8 +48,6 @@ div img{
     padding-left: 30px;
     margin-top: 200px;
     color: coral;
-    
-    
 }
 
 .videos-uno{
@@ -86,18 +77,17 @@ section article iframe{
 
 .nosotros-dos{
     letter-spacing: 3px;
+    font-weight: bold;
 }
 
 .texto-dos{
     margin-top: 50px;
     padding-left: 30px;
-
 }
 
 .parrafo-uno{
-    margin-top: 20px;
+    margin-top: 60px;
     text-align: left;
-
 }
 
 .parrafo-dos{
@@ -122,7 +112,7 @@ section article iframe{
 
 .border-dos{
     border: solid black;
-    margin-left: 10px;
+    margin-right: 10px;
     padding-top: 30px;
 }
 
@@ -137,7 +127,6 @@ section article iframe{
     object-fit: cover;
     width: 100%;
     height: 100%;
-    
 }
 
 .parra-home{
@@ -176,13 +165,14 @@ section article iframe{
 }
 
 .receta-foto{
+    object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
 .border-menu{
     border: solid black;
-    margin-left: 10px;
+    margin-right: 10px;
     padding-top: 30px;
 }
 .ingredientes-uno{ 
@@ -195,7 +185,6 @@ section article iframe{
 .par-home{
     text-align: left;
     padding-left: 20px;
-
 }
 
 .par-uno{
@@ -236,12 +225,13 @@ section article iframe{
     display: grid;
     height: 100%;
     width: 100%;
+    object-fit: cover;
+}
 
+.fotos-cuatro{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 100%;
     gap: 1rem;
-    object-fit: cover;
-    
 }
 
 
@@ -269,7 +259,7 @@ section article iframe{
 
 .boton-dos{
     margin-top: 10px;
-    background-color: bisque;
+    background-color: rgb(255,193,7);
     color: black;
     padding: 5px 5px;
     font-size: 15px;
@@ -278,13 +268,13 @@ section article iframe{
 }
 
 .boton-dos:hover{
-    background-color: rgb(255, 193, 100);
+    background-color:  rgba(255, 192, 20, 0.613);
     cursor: pointer;
 }
 
 .boton-uno{
     margin-top: 10px;
-    background-color: bisque;
+    background-color: rgb(255,193,7);
     color: black;
     padding: 5px 5px;
     font-size: 15px;
@@ -293,9 +283,10 @@ section article iframe{
 }
 
 .boton-uno:hover{
-    background-color: rgb(255, 193, 100);
+    background-color: rgba(255, 192, 20, 0.613);
     cursor: pointer;
 }
+
 
 
 
@@ -306,6 +297,7 @@ section article iframe{
 
 .footer-home{
     margin-top: 300px;
+    margin-left: 30px;
 }
 
 .footer-uno{
@@ -342,14 +334,12 @@ section article iframe{
 
     .receta-uno{
         display: block;
-        list-style: none;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     .receta-dos{
         display: block;
-        list-style: none;
-        margin-top: 20px;
+        margin-top: 100px;
     }
 
     .foto-receta{
@@ -360,17 +350,8 @@ section article iframe{
         margin-top: 10px;
     }
 
-    .border-menu{
-        margin-top: 15px;
-    }
-
-    .border-dos{
-        margin-top: 15px;
-    }
-
     .slide img{
         height: 60vh;
-
     }
 
     .videos-uno{
@@ -393,23 +374,22 @@ section article iframe{
 
     .receta-uno{
         display: block;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     .receta-dos{
         display:block ;
-        margin-top: 20px;
+        margin-top: 100px;
     }
 
-    .border-menu{
-        margin-top: 15px;
+    .foto-receta{
+        margin-top: 10px;
     }
 
-    .border-dos{
-        margin-top: 15px;
+    .receta-foto{
+        margin-top: 10px;
     }
 
-    
     .slide img{
         height: 50vh;
     }
