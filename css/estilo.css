@@ -435,4 +435,7 @@ input, textarea {
         justify-content: center;
     }
 
+    input {
+        width: 200px;
+    }
 }
