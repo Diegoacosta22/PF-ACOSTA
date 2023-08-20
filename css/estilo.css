@@ -429,4 +429,8 @@ input, textarea {
     .form-uno{
         text-align: center;
     }
+
+    input {
+        width: 200px;
+    }
 }
