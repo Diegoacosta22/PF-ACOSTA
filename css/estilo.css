@@ -242,14 +242,44 @@ section article iframe{
 
 
 
-
+form{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 
 .form-uno{
+    /* margin-top: 30px;
+    text-align: center;
+    font-weight: bold; */
     margin-top: 30px;
-    padding-left: 30px;
-    font-weight: bold;
+   /*  margin-bottom: 100px; */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.input-grupo{
+    display: flex;
+    flex-direction: column;
     text-align: left;
-    margin-bottom: 100px;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+input, textarea {
+    padding: 17px 25px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    background-color: #fffde8;
+    border: 2px solid #ffffff;
+    color: #283629;
+    outline: none;
 }
 
 

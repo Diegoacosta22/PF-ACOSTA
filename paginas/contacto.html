@@ -56,39 +56,28 @@
 
 
         <form class="form-uno">
-            <div>
-                <label for="nombre">Escriba su nombre</label>
-            </div>
 
-            <div> 
-                <input type="text" required name="nombre">
-            </div>
-            
-            <div>
-                <label for="mail">Escriba su mail</label>
-            </div>
+            <div class="input-grupo">
+                
+                    <label for="nombre">Nombre</label>
+                    <input type="text"  name="nombre" placeholder="Nombre" required>
+                
+                    <label for="email">Email</label>
+                    <input type="email"  name="mail" placeholder="Email" required>
+                
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje"  cols="24" rows="10" placeholder="Mensaje" required></textarea>
+                
+                <div>
+                    <label for="terminos">¿Aceptas términos y condiciones?</label>
+                    <input class="terminos-uno" type="checkbox" name="terminos" required>
+                </div>
 
-            <div> 
-                <input type="email" required name="mail">
+                
+                    <input class="boton-uno" type="submit" value="Enviar">
+                    <input class="boton-dos" type="reset" value="Borrar">
             </div>
-            
-            <div>
-                <label for="mensaje">Mándanos tu mensaje</label>
-            </div>
-
-            <div>
-                <textarea name="mensaje" required cols="24" rows="10"></textarea>
-            </div>
-            
-            <div>
-                <label for="terminos">¿Aceptas términos y condiciones?</label>
-                <input class="terminos-uno" type="checkbox" name="terminos" required>
-            </div>
-
-            <div >
-                <input class="boton-uno" type="submit" value="Enviar">
-                <input class="boton-dos" type="reset" value="Borrar">
-            </div>
+           
         </form>
     </main>
 
