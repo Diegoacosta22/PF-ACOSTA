@@ -431,11 +431,11 @@ input, textarea {
     }
 
     .form-uno{
-        width: 300px;
+        width: 350px;
         justify-content: center;
     }
 
     input {
-        width: 200px;
+        width: 180px;
     }
 }
