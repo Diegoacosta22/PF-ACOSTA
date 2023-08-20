@@ -431,8 +431,9 @@ input, textarea {
     }
 
     .form-uno{
-        width: 300px;
-        justify-content: center;
+        width: 250px;
+        justify-content: end;
+        
     }
 
 }
