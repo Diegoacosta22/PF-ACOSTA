@@ -242,7 +242,7 @@ section article iframe{
 
 .form-uno{
     display: flex;
-    width: 350px;
+    width: 400px;
     padding: 50px 55px;
     margin: auto;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -428,6 +428,11 @@ input, textarea {
 
     .footer-tres{
         display: none;
+    }
+
+    .form-uno{
+        width: 300px;
+        justify-content: center;
     }
 
 }
