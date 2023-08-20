@@ -430,10 +430,7 @@ input, textarea {
         display: none;
     }
 
-    .form-uno{
-        width: 350px;
-        justify-content: center;
-    }
+    
 
     input {
         width: 180px;
