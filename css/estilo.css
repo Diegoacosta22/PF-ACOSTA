@@ -244,10 +244,9 @@ section article iframe{
     display: flex;
     width: 400px;
     padding: 50px 55px;
-    margin: auto;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    text-align: center;
+    margin: auto;
 }
 
 .input-grupo{
@@ -264,7 +263,7 @@ label {
 }
 
 input, textarea {
-    padding: 17px 25px;
+    padding: 15px 25px;
     border-radius: 20px;
     margin-bottom: 15px;
     background-color: #fffde8;
@@ -431,9 +430,8 @@ input, textarea {
     }
 
     .form-uno{
-        width: 250px;
-        justify-content: end;
-        
+        width: 270px;
+        justify-content: center;
     }
 
 }
