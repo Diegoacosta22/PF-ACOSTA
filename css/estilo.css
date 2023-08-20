@@ -240,37 +240,16 @@ section article iframe{
 
 
 
+
+
+
+
 .form-uno{
-    display: flex;
-    width: 400px;
-    padding: 50px 55px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    margin: auto;
-    justify-content: center;
-}
-
-.input-grupo{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    
-}
-
-label {
-    font-weight: 600;
-    margin-bottom: 15px;
     margin-top: 30px;
-}
-
-input, textarea {
-    padding: 15px 25px;
-    border-radius: 20px;
-    margin-bottom: 15px;
-    background-color: #fffde8;
-    border: 2px solid #ffffff;
-    color: black;
-    outline: none;
+    font-weight: bold;
+    width: 350px;
+    box-shadow: 0 0 20px red;
+    margin: auto;
 }
 
 
@@ -279,6 +258,7 @@ input, textarea {
 }
 
 .boton-dos{
+    margin-top: 10px;
     background-color: rgb(255,193,7);
     color: black;
     padding: 5px 5px;
@@ -306,8 +286,6 @@ input, textarea {
     background-color: rgba(255, 192, 20, 0.613);
     cursor: pointer;
 }
-
-
 
 
 
@@ -431,10 +409,6 @@ input, textarea {
     }
 
     .form-uno{
-        justify-content: center;
-    }
-    
-    input {
-        width: 200px;
+        text-align: center;
     }
 }
