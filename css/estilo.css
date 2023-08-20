@@ -407,4 +407,8 @@ section article iframe{
     .footer-tres{
         display: none;
     }
+
+    .form-uno{
+        text-align: center;
+    }
 }
