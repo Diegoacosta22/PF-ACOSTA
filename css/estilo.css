@@ -247,6 +247,7 @@ section article iframe{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     margin: auto;
+    justify-content: center;
 }
 
 .input-grupo{
