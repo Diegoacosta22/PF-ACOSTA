@@ -1,0 +1,169 @@
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+.logo-img{
+    width: 70px;
+}
+div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+section article iframe{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.slide img{
+    height: 30vh;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.videos-uno{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 30%);
+    gap: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+}
+.texto-uno{
+        font-size: 30px;
+        font-style: italic;
+        padding-left: 20px;
+        margin-top: 100px;
+        color: coral;
+}
+
+//nosotros
+section{
+    margin-top: 30px;
+    article{
+        article{
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+        p{
+            margin-top: 30px;
+            text-align: left;
+            padding-left: 10px;
+        }
+    }
+}
+
+//recetas
+.receta-uno{
+    margin-top: 40px;
+}
+.border-dos{
+    border: solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.ingredientes-dos{
+    padding-right: 30px;
+    list-style: none;
+}
+.foto-receta{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.parra-home{
+    text-align: left;
+    padding-left: 10px;
+}
+.receta-dos{
+    margin-top: 40px;
+}
+.receta-foto{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.border-menu{
+    border: solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.ingredientes-uno{ 
+    list-style: none;
+    padding-right: 30px;
+}
+.par-home{
+    text-align: left;
+    padding-left: 10px;
+}
+
+//fotos
+div{
+    img{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+}
+
+//contacto
+form{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    div{
+        .boton-uno{
+            margin-top: 10px;
+            background-color: rgb(255,193,7);
+            color: black;
+            padding: 10px 30px;
+            font-size: 15px;
+            text-transform: uppercase;
+            border: 1px solid #fff;
+        }
+        .boton-uno:hover{
+            background-color: rgba(255, 192, 20, 0.613);
+            cursor: pointer;
+        }
+        .boton-dos{
+            margin-top: 10px;
+            background-color: rgb(255,193,7);
+            color: black;
+            padding: 10px 30px;
+            font-size: 15px;
+            text-transform: uppercase;
+            border: 1px solid #fff;
+        }
+        .boton-dos:hover{
+            background-color:  rgba(255, 192, 20, 0.613);
+            cursor: pointer;
+        }
+    }
+}
+label{
+    margin-top: 20px;
+}
+input, textarea{
+    padding: 15px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 193, 7, 0.219);
+    border: #fff;
+    color: black;
+    outline: none;
+}
+.terminos-uno{
+    cursor: pointer
+}
