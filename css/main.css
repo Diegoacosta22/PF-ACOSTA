@@ -162,6 +162,12 @@ input, textarea {
 .terminos-uno {
   cursor: pointer; }
 
+@media (min-width: 320px) and (max-width: 600px) {
+  input {
+    width: 220px; }
+  textarea {
+    width: 220px; } }
+
 footer {
   padding-left: 10px; }
 

@@ -167,3 +167,12 @@ input, textarea{
 .terminos-uno{
     cursor: pointer
 }
+// media screen celular //
+@media (min-width:320px) and (max-width:600px){
+    input {
+        width: 220px;
+    }
+    textarea{
+        width: 220px;
+    }
+}
