@@ -25,7 +25,7 @@ h1 {
 .logo-img {
   width: 70px; }
 
-div img {
+main div img {
   width: 100%;
   height: 100%;
   object-fit: cover; }
@@ -47,9 +47,10 @@ section article iframe {
   gap: 1rem;
   padding-left: 10px;
   padding-right: 10px;
-  margin-top: 30px; }
+  margin-top: 100px; }
 
 .texto-uno {
+  text-align: center;
   font-size: 30px;
   font-style: italic;
   padding-left: 20px;
@@ -68,16 +69,19 @@ section {
     padding-left: 10px;
     padding-right: 10px; }
 
+.parrafo-dos {
+  margin-bottom: 200px; }
+
 .receta-uno {
   margin-top: 40px; }
 
-.border-dos {
+.border-uno {
   border: solid black;
   margin-left: 10px;
   margin-right: 10px;
   text-align: center; }
 
-.ingredientes-dos {
+.ingredientes-uno {
   padding-right: 30px;
   list-style: none; }
 
@@ -105,13 +109,13 @@ section {
   padding-left: 10px;
   padding-right: 10px; }
 
-.border-menu {
+.border-dos {
   border: solid black;
   margin-left: 10px;
   margin-right: 10px;
   text-align: center; }
 
-.ingredientes-uno {
+.ingredientes-dos {
   list-style: none;
   padding-right: 30px; }
 
@@ -120,24 +124,30 @@ section {
   padding-left: 10px;
   padding-right: 10px; }
 
-div img {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px; }
+.fotos-cuatro {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(1, 20%);
+  padding: 10px;
+  gap: 1rem; }
+
+.texto-img, .texto-dos, .texto-tres, .texto-cuatro {
+  color: #fff; }
 
 form {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.733);
   width: 300px;
   border-radius: 20px;
   text-align: center;
-  margin: auto; }
+  margin: auto;
+  background-image: linear-gradient(#ffc107bd, #ffc1070c); }
   form div .boton-uno {
     background-color: #ffc107;
     font-size: 15px;
     text-transform: uppercase;
     border: 1px solid #ffc107; }
   form div .boton-uno:hover {
-    background-color: rgba(255, 192, 20, 0.613);
+    background-color: #e7a900;
     cursor: pointer; }
   form div .boton-dos {
     background-color: #ffc107;
@@ -146,7 +156,7 @@ form {
     text-transform: uppercase;
     border: 1px solid #ffc107; }
   form div .boton-dos:hover {
-    background-color: rgba(255, 192, 20, 0.613);
+    background-color: #e7a900;
     cursor: pointer; }
 
 label {
@@ -156,7 +166,7 @@ input, textarea {
   padding: 15px 25px;
   border-radius: 25px;
   margin-bottom: 20px;
-  background-color: rgba(255, 193, 7, 0.111);
+  background-color: #fff 0, 0, 0, 0.337;
   border: #fff;
   color: black;
   outline: none; }
@@ -164,18 +174,155 @@ input, textarea {
 .terminos-uno {
   cursor: pointer; }
 
-@media (min-width: 320px) and (max-width: 600px) {
-  input {
-    width: 220px; }
-  textarea {
-    width: 220px; } }
-
-@media (min-width: 600px) and (max-width: 768px) {
+/* MQ TABLET */
+@media screen and (min-width: 600px) {
   .slide img {
-    height: 100vh; } }
+    height: 50vh; }
+  form {
+    width: 350px; }
+  .parrafo-dos {
+    margin-bottom: 220px; }
+  .texto-img, .texto-dos, .texto-tres, .texto-cuatro {
+    color: #fff; } }
+
+/* MQ DESKTOP */
+@media screen and (min-width: 1024px) {
+  .slide img {
+    height: 70vh; }
+  .videos-uno {
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: 200%;
+    margin-bottom: 200px; }
+  .parrafo-uno {
+    margin-top: 50px;
+    padding-left: 30px; }
+  .parrafo-dos {
+    margin-top: 20px;
+    padding-left: 30px;
+    margin-bottom: 220px; }
+  .receta-uno {
+    display: flex;
+    padding-left: 10px; }
+  .border-uno {
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px; }
+  .ingredientes-uno {
+    padding-top: 20px; }
+  .receta-dos {
+    display: flex;
+    padding-left: 10px; }
+  .border-dos {
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px; }
+  .ingredientes-dos {
+    padding-top: 20px; }
+  .fotos-cuatro {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 2fr; }
+  .contenedor {
+    position: relative; }
+  .foto-uno {
+    perspective: 1000px; }
+  .foto-uno:hover .texto-img {
+    opacity: 1; }
+  .foto-uno:hover img {
+    transform: rotateY(180deg);
+    opacity: 0.6;
+    filter: blur(10px);
+    filter: grayscale(30%); }
+  .texto-img {
+    background-color: rgba(0, 0, 0, 0.686);
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(59, 58, 58, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: white;
+    padding: 10px;
+    transition: 1s; }
+  .foto-dos {
+    perspective: 1000px; }
+  .foto-dos:hover .texto-dos {
+    opacity: 1; }
+  .foto-dos:hover img {
+    transform: rotateY(180deg);
+    opacity: 0.6;
+    filter: blur(10px);
+    filter: grayscale(30%); }
+  .texto-dos {
+    background-color: rgba(0, 0, 0, 0.686);
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(59, 58, 58, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: white;
+    padding: 10px;
+    transition: 1s; }
+  .foto-tres {
+    perspective: 1000px; }
+  .foto-tres:hover .texto-tres {
+    opacity: 1; }
+  .foto-tres:hover img {
+    transform: rotateY(180deg);
+    opacity: 0.6;
+    filter: blur(10px);
+    filter: grayscale(5%); }
+  .texto-tres {
+    background-color: rgba(0, 0, 0, 0.686);
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(59, 58, 58, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: white;
+    padding: 10px;
+    transition: 1s; }
+  .foto-cuatro {
+    perspective: 1000px; }
+  .foto-cuatro:hover .texto-cuatro {
+    opacity: 1; }
+  .foto-cuatro:hover img {
+    transform: rotateY(180deg);
+    opacity: 0.6;
+    filter: blur(10px);
+    filter: grayscale(5%); }
+  .texto-cuatro {
+    background-color: rgba(0, 0, 0, 0.686);
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(59, 58, 58, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: white;
+    padding: 10px;
+    transition: 1s; }
+  form {
+    width: 370px; } }
 
 footer {
   padding-left: 10px; }
+
+.hr-uno {
+  position: relative;
+  top: 20px; }
 
 .footer-logo {
   width: 60px; }
