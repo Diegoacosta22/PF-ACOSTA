@@ -7,6 +7,10 @@ body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden; }
 
+form div .boton-uno, form div .boton-dos {
+  margin: 0.5rem;
+  padding: 0.7rem 2rem; }
+
 header nav ul li :hover {
   text-shadow: 1px 1px 4px black; }
 
@@ -128,10 +132,7 @@ form {
   text-align: center;
   margin: auto; }
   form div .boton-uno {
-    margin: 0.5rem;
     background-color: #ffc107;
-    color: black;
-    padding: 0.7rem 2rem;
     font-size: 15px;
     text-transform: uppercase;
     border: 1px solid #ffc107; }
@@ -139,10 +140,8 @@ form {
     background-color: rgba(255, 192, 20, 0.613);
     cursor: pointer; }
   form div .boton-dos {
-    margin: 1rem;
     background-color: #ffc107;
     color: black;
-    padding: 0.7rem 2rem;
     font-size: 15px;
     text-transform: uppercase;
     border: 1px solid #ffc107; }
@@ -170,6 +169,10 @@ input, textarea {
     width: 220px; }
   textarea {
     width: 220px; } }
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .slide img {
+    height: 100vh; } }
 
 footer {
   padding-left: 10px; }

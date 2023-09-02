@@ -120,10 +120,8 @@ form{
     margin: auto;
     div{
         .boton-uno{
-            margin: 0.5rem;
+            @extend %estilos;
             background-color: $color-principal;
-            color: black;
-            padding: 0.7rem 2rem;
             font-size: 15px;
             text-transform: uppercase;
             border: 1px solid $color-principal;
@@ -133,10 +131,9 @@ form{
             cursor: pointer;
         }
         .boton-dos{
-            margin: 1rem;
+            @extend %estilos;
             background-color: $color-principal;
             color: black;
-            padding: 0.7rem 2rem;
             font-size: 15px;
             text-transform: uppercase;
             border: 1px solid $color-principal;
@@ -169,5 +166,11 @@ input, textarea{
     }
     textarea{
         width: 220px;
+    }
+}
+// media screen tablet //
+@media (min-width: 600px) and (max-width:768px){
+    .slide img{
+        height: 100vh;
     }
 }
