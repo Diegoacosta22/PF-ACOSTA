@@ -162,6 +162,12 @@ input, textarea{
 .terminos-uno{
     cursor: pointer
 }
+input{
+    width: 220px;
+}
+textarea{
+    width: 220px;
+}
 /* MQ TABLET */
 @media screen and (min-width: 600px){
     .slide img{
