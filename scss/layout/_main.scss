@@ -51,6 +51,7 @@ section{
             margin-top: 30px;
             text-align: left;
             padding-left: 10px;
+            padding-right: 10px;
         }
     }
 }
@@ -80,6 +81,7 @@ section{
 .parra-home{
     text-align: left;
     padding-left: 10px;
+    padding-right: 10px;
 }
 .receta-dos{
     margin-top: 40px;
@@ -105,6 +107,7 @@ section{
 .par-home{
     text-align: left;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 //fotos
@@ -118,11 +121,12 @@ div{
 
 //contacto
 form{
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.733);
     width: 300px;
     border-radius: 20px;
     text-align: center;
     margin: auto;
+    background-color: rgb(255, 255, 255);
     div{
         .boton-uno{
             margin-top: 10px;
@@ -131,7 +135,7 @@ form{
             padding: 10px 30px;
             font-size: 15px;
             text-transform: uppercase;
-            border: 1px solid #fff;
+            border: 1px solid #ffc107;
         }
         .boton-uno:hover{
             background-color: rgba(255, 192, 20, 0.613);
@@ -144,7 +148,7 @@ form{
             padding: 10px 30px;
             font-size: 15px;
             text-transform: uppercase;
-            border: 1px solid #fff;
+            border: 1px solid #ffc107;
         }
         .boton-dos:hover{
             background-color:  rgba(255, 192, 20, 0.613);
@@ -159,7 +163,7 @@ input, textarea{
     padding: 15px 25px;
     border-radius: 25px;
     margin-bottom: 20px;
-    background-color: rgba(255, 193, 7, 0.219);
+    background-color: rgba(255, 193, 7, 0.111);
     border: #fff;
     color: black;
     outline: none;
