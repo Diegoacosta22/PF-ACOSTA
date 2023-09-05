@@ -111,7 +111,7 @@ section{
     gap: 1rem;
 }
 .texto-img, .texto-dos, .texto-tres, .texto-cuatro{
-        color: #fff;
+    opacity: 0;
 }
 //contacto
 form{
@@ -124,7 +124,7 @@ form{
     div{
         .boton-uno{
             @extend %estilos;
-            background-color: $color-principal;
+            background-color: #ffc107bd;
             font-size: 15px;
             text-transform: uppercase;
             border: 1px solid $color-principal;
@@ -135,7 +135,7 @@ form{
         }
         .boton-dos{
             @extend %estilos;
-            background-color: $color-principal;
+            background-color: #ffc107bd;
             color: black;
             font-size: 15px;
             text-transform: uppercase;
@@ -168,6 +168,7 @@ input{
 textarea{
     width: 220px;
 }
+
 /* MQ TABLET */
 @media screen and (min-width: 600px){
     .slide img{
@@ -180,7 +181,7 @@ textarea{
         margin-bottom: 220px;
     }
     .texto-img, .texto-dos, .texto-tres, .texto-cuatro{
-        color: #fff;
+        opacity: 0;
     }
 }
 /* MQ DESKTOP */

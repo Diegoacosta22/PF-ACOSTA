@@ -132,7 +132,7 @@ section {
   gap: 1rem; }
 
 .texto-img, .texto-dos, .texto-tres, .texto-cuatro {
-  color: #fff; }
+  opacity: 0; }
 
 form {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.733);
@@ -142,7 +142,7 @@ form {
   margin: auto;
   background-image: linear-gradient(#ffc107bd, #ffc1070c); }
   form div .boton-uno {
-    background-color: #ffc107;
+    background-color: #ffc107bd;
     font-size: 15px;
     text-transform: uppercase;
     border: 1px solid #ffc107; }
@@ -150,7 +150,7 @@ form {
     background-color: #e7a900;
     cursor: pointer; }
   form div .boton-dos {
-    background-color: #ffc107;
+    background-color: #ffc107bd;
     color: black;
     font-size: 15px;
     text-transform: uppercase;
@@ -189,7 +189,7 @@ textarea {
   .parrafo-dos {
     margin-bottom: 220px; }
   .texto-img, .texto-dos, .texto-tres, .texto-cuatro {
-    color: #fff; } }
+    opacity: 0; } }
 
 /* MQ DESKTOP */
 @media screen and (min-width: 1024px) {
