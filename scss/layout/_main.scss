@@ -1,3 +1,4 @@
+/* inicio */
 h1{
     text-align: center;
     margin-top: 40px;
@@ -33,7 +34,7 @@ section article iframe{
         margin-top: 100px;
         color: coral;
 }
-//nosotros
+/* nosotros */
 section{
     margin-top: 30px;
     article{
@@ -53,7 +54,7 @@ section{
 .parrafo-dos{
     margin-bottom: 200px;
 }
-//recetas
+/* recetas */
 .receta-uno{
     margin-top: 40px;
 }
@@ -102,7 +103,7 @@ section{
     padding-left: 10px;
     padding-right: 10px;
 }
-//fotos
+/* fotos */
 .fotos-cuatro{
     display: grid;
     grid-template-columns: 1fr;
@@ -113,7 +114,7 @@ section{
 .texto-img, .texto-dos, .texto-tres, .texto-cuatro{
     opacity: 0;
 }
-//contacto
+/* contacto */
 form{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.733);
     width: 300px;
@@ -163,12 +164,11 @@ input, textarea{
     cursor: pointer
 }
 input{
-    width: 230px;
+    width: 240px;
 }
 textarea{
-    width: 230px;
+    width: 240px;
 }
-
 /* MQ TABLET */
 @media screen and (min-width: 600px){
     .slide img{
@@ -262,7 +262,6 @@ textarea{
         opacity: 0;
         color: white;
         padding: 10px;
-
         transition: 1s;
     }
     .foto-dos{
@@ -289,7 +288,6 @@ textarea{
         opacity: 0;
         color: white;
         padding: 10px;
-
         transition: 1s;
     }
     .foto-tres{
@@ -316,7 +314,6 @@ textarea{
         opacity: 0;
         color: white;
         padding: 10px;
-
         transition: 1s;
     }
     .foto-cuatro{
@@ -343,10 +340,9 @@ textarea{
         opacity: 0;
         color: white;
         padding: 10px;
-
         transition: 1s;
     }
     form{
-        width: 370px;
+        width: 390px;
     }
 }

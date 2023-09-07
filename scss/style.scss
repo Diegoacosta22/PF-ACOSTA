@@ -1,15 +1,10 @@
 @import "base/reset";
 
-@import "components/buttons";
-
 @import "utils/variables";
 @import "utils/globals";
 @import "utils/mixin";
 @import "utils/extend";
 
-
 @import "layout/header";
 @import "layout/main";
 @import "layout/footer"
-
-
