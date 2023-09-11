@@ -53,11 +53,11 @@ section article iframe {
 
 .texto-uno {
   text-align: center;
-  font-size: 30px;
+  font-size: 45px;
   font-style: italic;
   padding-left: 20px;
   margin-top: 100px;
-  color: coral; }
+  color: #ff4400; }
 
 /* nosotros */
 section {
@@ -128,6 +128,32 @@ section {
   padding-left: 10px;
   padding-right: 10px; }
 
+.receta-tres {
+  margin-top: 40px; }
+
+.border-tres {
+  border: solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center; }
+
+.ingredientes-tres {
+  padding-right: 30px;
+  list-style: none; }
+
+.receta-fo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px; }
+
+.parra-tres {
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px; }
+
 /* fotos */
 .fotos-cuatro {
   display: grid;
@@ -146,7 +172,7 @@ form {
   border-radius: 20px;
   text-align: center;
   margin: auto;
-  background-image: linear-gradient(#ffc107bd, #ffc1070c); }
+  background-image: linear-gradient(#ffc10762, #ffc1070c); }
   form div .boton-uno {
     background-color: #ffc107bd;
     font-size: 15px;
@@ -221,7 +247,8 @@ textarea {
     padding-left: 5px;
     padding-right: 5px; }
   .ingredientes-uno {
-    padding-top: 20px; }
+    padding-top: 20px;
+    list-style: square; }
   .receta-dos {
     display: flex;
     padding-left: 10px; }
@@ -231,7 +258,19 @@ textarea {
     padding-left: 5px;
     padding-right: 5px; }
   .ingredientes-dos {
+    padding-top: 20px;
+    list-style: square; }
+  .receta-tres {
+    display: flex;
+    padding-left: 10px; }
+  .border-tres {
+    margin-top: 10px;
     padding-top: 20px; }
+  .ingredientes-tres {
+    padding-top: 10px;
+    list-style: square; }
+  .receta-fo {
+    width: 550px; }
   .fotos-cuatro {
     display: grid;
     grid-template-columns: repeat(4, 25%);
